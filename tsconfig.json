@@ -1,0 +1,14 @@
+{
+	"exclude": ["src/**/*.test.ts", "src/__mocks__/*"],
+	"compilerOptions": {
+		"target": "es2018",
+		"module": "commonjs",
+		"lib": ["es6", "dom"],
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"removeComments": true,
+		"strict": true,
+		"typeRoots": ["./src/modules", "./node_modules/@types"],
+		"esModuleInterop": true
+	}
+}
